@@ -37,6 +37,7 @@ const Header = () => {
             Deliver at: I-8/2 Islamabad, Pakistan
           </p>
         </div>
+        <p className="text-sm font-semibold">Explore Popular Categories</p>
         <div className="grid grid-cols-4 mt-5 pl-4">
           {categories.map((element, index) => (
             <div key={index} className="flex flex-col px-0">

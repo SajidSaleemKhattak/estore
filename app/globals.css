@@ -1,6 +1,18 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("/fonts/InstrumentSans[wdth,wght].woff2") format("woff2");
+  font-weight: 100 900; /* variable font supports full range */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
